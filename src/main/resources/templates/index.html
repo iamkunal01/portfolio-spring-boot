@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/index.css">
+<link
+	href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+	rel="stylesheet" />
+<script src="/js/script.js"></script>
+<title>ShowMan - Home</title>
+</head>
+
+<body>
+	<button onclick="topFunction()" id="scrollback" title="Go to top">&uarr;</button>
+	<!-- header starts -->
+	<header>
+		<nav>
+			<div class="logo">
+				<h1 onclick="goToHome()">Showman</h1>
+			</div>
+			<div class="nav-links">
+				<a class="hideOnMobile" href="#edu">Education</a> <a
+					class="hideOnMobile" href="#skill">Skill</a> <a
+					class="hideOnMobile" href="#projects">Projects</a> <a
+					class="hideOnMobile" href="#certificate">Certificates</a> <a
+					class="hideOnMobile" href="#contact">Contact</a> <i id="menu-btn"
+					onclick="showSidebar()"><img src="/img/menu-line.svg" alt=""></i>
+			</div>
+		</nav>
+		<div class="sidebar">
+			<i id="menu-close-btn" class="ri-close-line" onclick="hideSidebar()"></i>
+			<a class="hideOnMobile" href="#edu">Education</a> <a
+				class="hideOnMobile" href="#skill">Skill</a> <a class="hideOnMobile"
+				href="#projects">Projects</a> <a class="hideOnMobile"
+				href="#certificate">Certificates</a> <a class="hideOnMobile"
+				href="#contact">Contact</a>
+		</div>
+	</header>
+	 <hr color="red">
+	<!-- header ends -->
+	<!-- main body stats -->
+	<div class="profile-section">
+		<div class="profile-c1">
+			<div class="profile-img1">
+				<img id="profic-img1" src="/img/Profile_pic2.png"
+					alt="profile pictures">
+			</div>
+			<div class="profile-img2">
+				<img id="profic-img2" src="/img/Profile_pic3.png"
+					alt="profile pictures">
+			</div>
+		</div>
+		<div class="profile-c2">
+			<div class="profile-c2-r1">
+				<h3>Hello World!</h3>
+				<h1>I'm Kunal Wahurwagh</h1>
+				<h2>Software Engineer</h2>
+			</div>
+			<div class="profile-c2-r2">
+				<p>Hey there — I’m a graduated Software Engineer with a passion
+					for building sleek, scalable full-stack applications. From crafting
+					intuitive front-end interfaces to architecting robust back-end
+					systems, I love turning ideas into real-world tech. My focus lies
+					in modern web development, full-stack solutions, and everything in
+					between. I’m endlessly curious, always leveling up my skills, and
+					constantly exploring the next big thing in tech. Let’s build
+					something awesome.</p>
+				<a class="resume" href="/img/Kunal_Wahurwagh_Resume.pdf" download="Kunal_Wahurwagh_Resume">Download Resume <i class="ri-download-fill"></i></a>
+			</div>
+		</div>
+	</div>
+	<hr color="red">
+	<!-- education -->
+	<div class="edu-container" id="edu">
+		<div class="edu-head">
+			<h2>Education Details</h2>
+		</div>
+		<div class="edu-r1 edu-row">
+			<div class="edu-r1-c1 edu-col1">
+				<img src="/img/ssc-school.webp" alt="SSC College">
+			</div>
+			<div class="edu-r1-c2 edu-col2">
+				<h2>
+					Secondary School Education (10 <sup>th</sup> )
+				</h2>
+				<h1>Smt. Laxmibai Gangane Vidyalaya, Wadali Deshmukh</h1>
+				<h2>Maharashtra State Board of Secondary and Higher Secondary
+					Education</h2>
+				<p>Pecentage: 89.00</p>
+			</div>
+		</div>
+		<div class="edu-r2 edu-row">
+			<div class="edu-r2-c1 edu-col1">
+				<img src="/img/hsc college1.webp" alt="HSC College">
+			</div>
+			<div class="edu-r2-c2 edu-col2">
+				<h2>
+					Higher Secondary Education (12 <sup>th</sup> )
+				</h2>
+				<h1>Smt. Laxmibai Gangane Jr. College, Akot</h1>
+				<h2>Maharashtra State Board of Secondary and Higher Secondary
+					Education</h2>
+				<p>
+					Stream: General Science [PCMB]<br> Pecentage: 82.15
+				</p>
+				<!-- <p>Pecentage: 82.15</p> -->
+			</div>
+
+		</div>
+		<div class="edu-r3 edu-row">
+			<div class="edu-r3-c1 edu-col1">
+				<img src="/img/ug college.webp" alt="UG College">
+			</div>
+			<div class="edu-r3-c2 edu-col2">
+				<h2>Under-Graduation Education</h2>
+				<h1>Government College of Engineering, Yavatmal</h1>
+				<h2>Dr. Babasaheb Ambedkar Techonological University, Lonere</h2>
+				<p>
+					Stream: Computer Engineering [B.Tech]<br> CGPA: 8.81
+				</p>
+				<!-- <p>CGPA: 8.81</p> -->
+			</div>
+		</div>
+	</div>
+	 <hr color="red">
+	<!-- skills -->
+	<div class="skill-container" id="skill">
+		<div class="skill-head">
+			<h2>Skills</h2>
+		</div>
+		<div class="skill-section">
+			<div class="skill">
+				<img src="/img/html.svg" alt="HTML">
+				<h3>HTML</h3>
+			</div>
+			<div class="skill">
+				<img src="/img/css.svg" alt="CSS">
+				<h3>CSS</h3>
+			</div>
+			<div class="skill">
+				<img src="/img/java.svg" alt="JAVA">
+				<h3>JAVA</h3>
+			</div>
+			<div class="skill">
+				<img src="/img/sql.png" alt="SQL">
+				<h3>MySQL</h3>
+			</div>
+			<div class="skill">
+				<img src="/img/Hibernate.svg" alt="Hibernate">
+				<h3>Hibernate</h3>
+			</div>
+			<div class="skill">
+				<img src="/img/spring.svg" alt="Spring">
+				<h3>Spring</h3>
+			</div>
+			<div class="skill">
+				<img src="/img/spring boot.svg" alt="Boot">
+				<h3>Boot</h3>
+			</div>
+			<div class="skill">
+				<img src="/img/ap.svg" alt="API">
+				<h3>API</h3>
+			</div>
+		</div>
+	</div>
+	 <hr color="red">
+	<!-- project details -->
+	<div class="project-container" id="projects">
+		<div class="project-head">
+			<h2>Academic Projects</h2>
+		</div>
+		<div class="project-r1 project-row">
+			<div class="project-r1-c1 project-col1">
+				<img src="/img/project1.webp" alt="project image">
+			</div>
+			<div class="project-r1-c2 project-col2">
+				<h3>#Project 1</h3>
+				<h1>Gym Website</h1>
+				<h3 style="font-style: italic; margin-top: 0.5em">Technogies:
+					HTML, CSS, JS, MySQL, JAVA</h3>
+				<ul>
+					<li>Gym website is modern application for the gym users made
+						by using front end technologies like HTML, CSS, and JavaScript.</li>
+					<li>Included features like dynamic class schedule, informative
+						articles and blogs. Showcasing the modern web design excellence
+						and a fitness heaven.</li>
+				</ul>
+				<button>
+					<a href="https://github.com/iamkunal01/gym-management-website-spring-boot">Click Here for Code</a>
+				</button>
+			</div>
+		</div>
+		<div class="project-r2 project-row">
+			<div class="project-r2-c1 project-col1">
+				<img src="/img/project2.webp" alt="project image">
+			</div>
+			<div class="project-r2-c2 project-col2">
+				<h3>#Project 2</h3>
+				<h1>Robotic Arm</h1>
+				<h3 style="font-style: italic; margin-top: 0.5em;">Technogies:
+					NODEMCU, Adruino IDE, C</h3>
+				<ul>
+					<li>Used the IOT technology to build the robotic arm.</li>
+					<li>Assist humans in various surroundings, can perform
+						repetitive tasks having operations like pick and place objects.</li>
+				</ul>
+				<button>
+					<a href="https://github.com/iamkunal01/robotic-arm-nodemcu">Click Here for Code</a>
+				</button>
+			</div>
+		</div>
+		<div class="project-r3 project-row">
+			<div class="project-r3-c1 project-col1">
+				<img src="/img/project3.webp" alt="project image">
+			</div>
+			<div class="project-r3-c2 project-col2">
+				<h3>#Project 3</h3>
+				<h1>Sign Language Recongnition System</h1>
+				<h3 style="font-style: italic; margin-top: 0.5em">Technogies:
+					Python, HTML, CSS, JS, MySQL, Python Lib.</h3>
+				<ul>
+					<li>By using the modern technology machine learning build a
+						sign language recognition system based on web platform.</li>
+					<li>Used machine learnings techniques like CNN and natural
+						language processing.</li>
+				</ul>
+				<button>
+					<a href="https://github.com/iamkunal01/sign-sense-web">Click Here for Code</a>
+				</button>
+			</div>
+		</div>
+	</div>
+	 <hr color="red">
+	<!-- certificates -->
+	<div class="cert-container" id="certificate">
+		<div class="cert-head">
+			<h2>Certificates & Achievements</h2>
+		</div>
+		<div class="cert-slide">
+			<button class="w3-button w3-black w3-display-left"
+				onclick="plusDivs(-1)">&#10094;</button>
+			<img class="slide-img" src="/img/publication2.webp" alt=""
+				loading="lazy" style="display: block;"> <img class="slide-img"
+				src="/img/publication1.webp" alt="" loading="lazy"> <img
+				class="slide-img" src="/img/social-network.webp" alt=""
+				loading="lazy"> <img class="slide-img"
+				src="/img/internshala-python.webp" alt="" loading="lazy"> <img
+				class="slide-img" src="/img/internshala-training.webp" alt=""
+				loading="lazy"> <img class="slide-img" src="/img/iot.webp"
+				alt="" loading="lazy"> <img class="slide-img"
+				src="/img/udemy-python.webp" alt="" loading="lazy"> <img
+				class="slide-img" src="/img/udemy-html-css.webp" alt=""
+				loading="lazy"> <img class="slide-img"
+				src="/img/techlearn-fb.webp" alt="" loading="lazy"> <img
+				class="slide-img" src="/img/suven-internship.webp" alt=""
+				loading="lazy"> <img class="slide-img" src="/img/german.webp"
+				alt="" loading="lazy"> <img class="slide-img"
+				src="/img/typing.webp" alt="" loading="lazy">
+			<button class="w3-button w3-black w3-display-right"
+				onclick="plusDivs(1)">&#10095;</button>
+		</div>
+	</div>
+	 <hr color="red">
+	<!-- publication -->
+	<div class="publish-container">
+		<div class="publish-head">
+			<h2>publications</h2>
+		</div>
+		<div class="publish-section">
+			
+			<h2>Title: Review Paper on Enhancing Communication: Machine
+					Learning for Live Sign-to-Text Translation</h2>
+
+			<h3>Journal: International Journal of Engineering and Technology</h3>
+			<p>
+				Authors: <a
+					href="https://www.linkedin.com/in/aditya-rangari-00a54a333/"
+					target="_blank">Aditya Rangari,</a> <a
+					href="https://www.linkedin.com/in/devendra-bhide-b7854723b/"
+					target="_blank">Devendra Bhide, </a> <a
+					href="https://www.linkedin.com/in/kunal-wahurwagh/" target="_blank">Kunal
+					Wahurwagh, </a> <a
+					href="https://www.linkedin.com/in/vaibhav-more-332b86262/"
+					target="_blank">Vaibhav More</a>
+			</p>
+			
+			<a href="https://thegrenze.com/index.php?display=page&view=journalabstract&absid=2513&id=8" target="_blank">Click Here for Review Paper</a>>
+		</div>
+	</div>
+	 <hr color="red">
+	<!-- contact form -->
+	<div class="contact-container" id="contact">
+		<div class="contact-head">
+			<h2>Get in Touch</h2>
+		</div>
+		<div class="contact-form">
+			<form action="/" method="post">
+				<input class="input-data" name="name" type="text"
+					placeholder="Your Name"> <input class="input-data"
+					name="email" type="text" placeholder="Your Email">
+				<textarea class="input-data" name="msg" id="msg"
+					placeholder="Your Message"></textarea>
+				<input class="input-data" name="sendbtn" id="submit-btn"
+					type="submit" value="Send Message">
+			</form>
+		</div>
+
+		<div class="line d-flex">
+			<hr>
+			or Connect with
+			<hr>
+		</div>
+		<div class="contact-profile">
+			<a href="https://github.com/iamkunal01" target="_blank"><img
+				src="/img/GitHub.svg" alt="github"></a> <a
+				href="https://www.linkedin.com/in/kunal-wahurwagh/" target="_blank"><img
+				src="/img/LinkedIn.svg" alt="linkedin"></a> <a
+				href="https://www.instagram.com/kunal_wahurwagh/" target="_blank"><img
+				src="/img/instagram.svg" alt="instagram"></a> <a href="https://www.facebook.com/kunal.wahurwagh/"
+				target="_blank"><img src="/img/Facebook.svg" alt="facebook"></a>
+		</div>
+	</div>
+	<!-- main body ends -->
+	 <hr color="red">
+	<!-- footer -->
+	<footer> Made with ❤️ by Kunal Wahurwagh | All rights reserved
+		©️ </footer>
+	<div id="popup" class="popup" th:if="${success}">
+		<p>Email sent successfully!</p>
+	</div>
+</body>
+
+<script>
+    setTimeout(() => {
+        document.getElementById("popup").style.display = "none";
+    }, 3000);
+</script>
+</html>
+
